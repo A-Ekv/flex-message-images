@@ -1,0 +1,67 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectRatio": "16:16",
+    "aspectMode": "cover",
+    "url": "https://raw.githubusercontent.com/A-Ekv/flex-message-images/refs/heads/main/Icon%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87.png"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ประกันเดินทง",
+        "weight": "regular",
+        "size": "xl",
+        "position": "relative",
+        "align": "center",
+        "lineSpacing": "6px"
+      },
+      {
+        "type": "text",
+        "text": "Sompo",
+        "style": "normal",
+        "decoration": "none",
+        "position": "relative",
+        "align": "center",
+        "gravity": "center",
+        "lineSpacing": "6px",
+        "weight": "regular",
+        "size": "lg",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://lh3.googleusercontent.com/d/1uUCl6sw2lRi6tBdNkM6XG4bn2ovrpvfh"
+        }
+      }
+    ],
+    "spacing": "xl"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "WEBSITE",
+          "uri": "https://line.me/"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}
